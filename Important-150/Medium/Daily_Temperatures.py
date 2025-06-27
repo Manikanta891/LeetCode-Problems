@@ -1,5 +1,5 @@
 class Solution:
-    def dailyTemperatures(self, T: List[int]) -> List[int]:
+    def dailyTemperatures(self, T):
         n = len(T)
         res = [0] * n  # Final answer array
         stack = []  # Stores indices
