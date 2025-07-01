@@ -10,9 +10,10 @@ N = 3
 
 TowerOfHanoi(N, 'A', 'C', 'B')
 
-
-
-# ### 🔺 The Basic Setup
+#The main task is given recursively the big step to another recursion function then it will continuosly break down into small tasks
+#Before moving n disks we need to move remaining n-1 disks
+#Before moving n-1 disks we need to move n-2 disks 
+# 🔺 The Basic Setup
 
 # You have:
 
