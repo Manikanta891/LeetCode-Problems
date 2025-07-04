@@ -1,5 +1,5 @@
 class Solution:
-    def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
+    def eraseOverlapIntervals(self, intervals ):
         n = len(intervals)
         intervals.sort(key=lambda x: x[1])
         
